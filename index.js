@@ -34,7 +34,7 @@ copyBtn.addEventListener("click", () => {
   navigator.clipboard.writeText(email.textContent);
 
   copyBtn.textContent = "Copied!";
-
+  alert("Email is Copied !");
   setTimeout(() => {
     copyBtn.textContent = "Copy";
   }, 2000);
